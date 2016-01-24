@@ -6,6 +6,7 @@ import package edu.wpi.first.wpilibj  //or just import the whole package with al
 //get Arduino setup and import Arduino libraries if necessary.
 
   //Sample code for driving servos
+  
 Servo first; // create servo object
 Servo second; // create servo object
 
@@ -29,5 +30,8 @@ void loop() {
   second.write(180);         // move second servo to pos 180
   delay(1000);
 }
+
+
+
 
 
